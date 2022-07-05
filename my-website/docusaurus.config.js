@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Barley Writes',
   tagline: 'Dinosaurs are cool',
-  url: 'https://polite-bay-0071b4b10.1.azurestaticapps.net/blog',
+  url: 'https://polite-bay-0071b4b10.1.azurestaticapps.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
