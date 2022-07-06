@@ -1,53 +1,51 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Barley Writes',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://polite-bay-0071b4b10.1.azurestaticapps.net',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Baley Bits",
+  tagline: "Simplified Tutorials, Tech and Sports",
+  url: "https://polite-bay-0071b4b10.1.azurestaticapps.net",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Yoofi-A-Appiah', // Usually your GitHub org/user name.
-  projectName: 'my-blog', // Usually your repo name.
+  organizationName: "Yoofi-A-Appiah", // Usually your GitHub org/user name.
+  projectName: "my-blog", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -57,57 +55,60 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Barley Writes',
+        title: "Baley Bits",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "My Site Logo",
+          src: "img/bb3.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'About',
+            type: "doc",
+            docId: "about",
+            position: "left",
+            label: "Sports & Tech News",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Tutorials", position: "left" },
           {
-            href: 'https://github.com/Yoofi-A-Appiah',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://twitter.com/appiah1_yoofi",
+            label: "Twitter",
+            position: "right",
           },
+          {
+            label: "LinkedIn",
+            href: "https://www.linkedin.com/in/yoofi-appiah-4a7152222",
+            position: "right",
+          },
+          {
+            label: "GitHub",
+            href: "https://github.com/Yoofi-A-Appiah",
+            position: "right",
+          },
+          // ],
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
+          
           {
-            title: 'Docs',
+            title: "Links",
             items: [
               {
-                label: 'About',
-                to: '/docs/intro',
+                label: "Twitter",
+                href: "https://twitter.com/appiah1_yoofi",
+              },
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/yoofi-appiah-4a7152222",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/Yoofi-A-Appiah",
               },
             ],
           },
-          {
-            title: 'Links',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/appiah1_yoofi',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/yoofi-appiah-4a7152222',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Yoofi-A-Appiah',
-              },
-            ],
-          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Barley Bits. Built with Docusaurus. <br> Powered by Azure Static Web Apps`,
       },
       prism: {
         theme: lightCodeTheme,
