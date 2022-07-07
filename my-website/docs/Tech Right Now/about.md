@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Tech Right Now
+title: Coming Soon
 
 ---
-Created for developers by a developer, Barley Writes seeks to tutor and inspire developers. The carefully curated topics will set any new developer on the right path at the same time give inspiration to tech professionals. 
+<b><i>Coming Soon</i></b>
