@@ -6,19 +6,18 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Baley Bits",
-  tagline: "Simplified Tutorials, Tech and Sports",
+  title: "the BetaBits",
+  tagline: "Simplified Tutorials. Latest Tech News",
   url: "https://polite-bay-0071b4b10.1.azurestaticapps.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/barleybits1.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Yoofi-A-Appiah", // Usually your GitHub org/user name.
   projectName: "my-blog", // Usually your repo name.
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -32,6 +31,10 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-8PR20FVG6X',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -55,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Baley Bits",
+        title: " the BetaBits",
         logo: {
           alt: "My Site Logo",
           src: "img/bb3.png",
@@ -65,9 +68,9 @@ const config = {
             type: "doc",
             docId: "about",
             position: "left",
-            label: "Sports & Tech News",
+            label: "About",
           },
-          { to: "/blog", label: "Tutorials", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://twitter.com/appiah1_yoofi",
             label: "Twitter",
@@ -108,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Barley Bits. Built with Docusaurus. <br> Powered by Azure Static Web Apps`,
+        copyright: `Copyright © ${new Date().getFullYear()} the BetaBits. Built with Docusaurus. <br> Powered by Azure Static Web Apps`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -118,3 +121,5 @@ const config = {
 };
 
 module.exports = config;
+  
+

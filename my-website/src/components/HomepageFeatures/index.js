@@ -11,7 +11,7 @@ const FeatureList = [
     Svg: require('@site/static/img/learn1.svg').default,
     description: (
       <>
-        From Web development to Cloud Services to Machine Learning
+        A simplified learning experience
       </>
     ),
     location: '/blog',
@@ -23,24 +23,14 @@ const FeatureList = [
     description: (
       <>
         
-        What's beeping today?<br></br>
+        What's trending today?<br></br>
         Find out Here
         </>
     ),
     location: '/docs/about',
     innertext:"Tech News",
   },
-  {
-    title: 'Sports Today',
-    Svg: require('@site/static/img/sports.svg').default,
-    description: (
-      <>
-        News from on and off the field.<br></br>.
-      </>
-    ),
-    location: '/docs/about',
-    innertext:'Sports News',
-  },
+  
 ];
 
 function Feature({Svg, title, description,location,innertext}) {
