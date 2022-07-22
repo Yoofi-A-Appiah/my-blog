@@ -63,7 +63,10 @@ const config = {
           alt: "My Site Logo",
           src: "img/bb3.png",
         },
+        
+        
         items: [
+
           {
             type: "doc",
             docId: "about",
@@ -76,6 +79,7 @@ const config = {
             label: "Twitter",
             position: "right",
           },
+          
           {
             label: "LinkedIn",
             href: "https://www.linkedin.com/in/yoofi-appiah-4a7152222",
@@ -86,6 +90,12 @@ const config = {
             href: "https://github.com/Yoofi-A-Appiah",
             position: "right",
           },
+          {
+            label: "Medium",
+            href: "https://medium.com/@appiahyoofi",
+            position: "right",
+          },
+          
           // ],
         ],
       },
@@ -107,6 +117,11 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/Yoofi-A-Appiah",
+              },
+              {
+                label: "Medium",
+                href: "https://medium.com/@appiahyoofi",
+                position: "right",
               },
             ],
           },
