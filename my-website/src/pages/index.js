@@ -17,13 +17,8 @@ export default function Home() {
     <Layout>
       <Head>
       <meta name="propeller" content="ad5b38b95f726654cab26a16d857bdf9" />
-      React.createElement(
-  "script",
-  null,
-  "(function(s,u,z,p)",
-  ((s.src = u), s.setAttribute("data-zone", z), p.appendChild(s)),
-  ")(document.createElement('script'),'https://inklinkor.com/tag.min.js',5271487,document.body||document.documentElement)"
-);
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2651219914227916"
+     crossorigin="anonymous"></script>
               </Head>
               <Redirect to='/blog' />;
 
