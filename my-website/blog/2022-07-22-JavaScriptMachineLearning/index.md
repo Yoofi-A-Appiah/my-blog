@@ -3,6 +3,8 @@ slug: machine learning with javascript
 title: What JavaScript can't do?🤯
 authors: [yoofi]
 tags: [javascript, machine learning, artificial intelligence]
+hide_table_of_contents: false
+
 ---
 
 A few weeks ago I asked myself "What can't JavaScript do?" and it led to a very intriguing discovery. Did you know Machine learning is possible with JavaScript?🤯 Well, I definitely did not.
@@ -16,7 +18,7 @@ A few weeks ago I asked myself "What can't JavaScript do?" and it led to a very 
 
 [*If you have want more understanding on what Machine learning is you can click here (I don’t want anyone to be left out*😄*)*](https://www.ibm.com/cloud/learn/machine-learning).
 
-Let's consider the following libraries
+## Let's consider the following libraries
 
 1. [ **Brain.js** ](https://brain.js.org) – this library simplifies [neural networks](https://en.wikipedia.org/wiki/Neural_network) by concealing the underlying mathematical complexities (less math is always a win for me). It is a GPU accelerated making it very fast but can easily fall back to pure JavaScript when GPU is not available. https://brain.js.org
 
@@ -34,7 +36,7 @@ Let's consider the following libraries
 
 ---
 
-<h3>So why use JavaScript for Machine Learning? 🤔</h3>
+## So why use JavaScript for Machine Learning? 🤔
 
 ![why](why.png)
 

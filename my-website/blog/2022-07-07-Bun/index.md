@@ -3,6 +3,8 @@ slug: bun runtime environment
 title: Goodbye Node js
 authors: [yoofi]
 tags: [javascript, runtime environment]
+hide_table_of_contents: false
+
 ---
 
 May 27, 2009 an open source runtime environment was released. Node js revolutionized server-side applications and made countless impossibilities a reality. Now there is a new kid on the block. <h2>Who is this new kid you speak of? 🤔</h2> <!--truncate--> <a href="https://bun.sh/"> Bun </a>
@@ -15,7 +17,7 @@ On its beta release it's creator made a claim to be the an increadibly fast all 
 
 ![Other](fastbun.jpg)
 
-<h2>How fast you ask? 🚀</h2>
+## How fast you ask? 🚀
 Here are the benchmark performances of Bun in comparision to Node js and Deno.
 <br>
 </br>
@@ -25,10 +27,10 @@ Here are the benchmark performances of Bun in comparision to Node js and Deno.
 ![Other](<Bun(2).png>)
 Take a moment to soak in those number. And yes its legit well atleast according to <a href="https://bun.sh/">Bun</a> they are . It is not looking good for deno but i am sure <a href="https://en.wikipedia.org/wiki/Ryan_Dahl">Ryan Dahl</a> and the team at deno have somethng up their sleeve.
 
-<h2>How does it work? ⚙️</h2>
+## How does it work? ⚙️
 Well Node Js uses googles <a href="https://v8.dev/">V8 engine</a> and has made it a great tool because of <a href="https://www.ibm.com/docs/en/sdk-java-technology/8?topic=reference-jit-compiler">JIT (Just In Time) compilation</a>. Now Bun uses the <a href="https://developer.apple.com/documentation/javascriptcore">JavaScript Core </a> which is considered to be faster. It was also written in a low level language <a href="https://ziglang.org/">Zig</a> which is like C and Rust had a baby. Low level control of memory and lack of hidden control flow are the features of Zig that make Bun as fast as it is
 
-<h2>Features 📋 </h2>
+## Features 📋 
 <ul>
 <li>
 Native bundler that replaces Web Pack
