@@ -10,14 +10,14 @@ description: Carbon Programming Language
 
 ![Other](carbonpng.png)
 
-The trend of replacing golden programming languages with modern options is becoming very popular. 
+The trend of replacing golden programming languages with modern options is becoming very popular. But will they stand the test of time.
 Microsoft did this when they released TypeScript, Jet brains released Kotlin to replace Java and now Google is doing same with the experimental release of Carbon. 
 
 ## Is there a need for Carbon
 
 <!--truncate-->
 
-Unless you’re new to programming, you will know that C++ has one of the more efficient programming languages for a long time and is usually taught at the foundational level of computer science. This is because it is a high-level language with a lot of low-level features. However, memory corruption, no garbage collection and the general complexity of the language and its syntaxes makes it long overdue for a replacement.
+Unless you’re new to programming, you will know that C++ has been one of the more efficient programming languages for a long time and is usually taught at the foundational level of computer science. This is because it is a high-level language with a lot of low-level features. However, memory corruption, no garbage collection and the general complexity of the language and its syntaxes makes it long overdue for a replacement.
 
 ## What is Carbon Anayways?
 
