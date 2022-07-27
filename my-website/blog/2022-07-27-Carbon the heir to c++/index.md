@@ -49,7 +49,7 @@ Who knows it might end up as the rightful successor or maybe another player migh
 Since it’s only experimental at this stage, it will require a <a href="https://llvm.org/">LLVM (Low Level Virtual Machine)</a> and <a href="https://bazel.build/">Bazel</a> running on a WSL to use it.
 There is no working compiler or toolchain at this stage. But upon testing the demo on my Ubuntu WSL, the results with speed can be compared with that of C++. But I should state that it was only a simple Hello world program. 
 
-[Check this article out to learn how to test carbon for yourself](https://polite-bay-0071b4b10.1.azurestaticapps.net/Testing%20Carbon%20Programming%20Language)
+[Check this article out to learn how to test carbon for yourself](https://polite-bay-0071b4b10.1.azurestaticapps.net/blog/Testing%20Carbon%20Programming%20Language)
 
 
 
