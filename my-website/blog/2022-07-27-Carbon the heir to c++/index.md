@@ -58,3 +58,5 @@ Maybe Rust might not be your favorite in this story, you can accelerate the succ
 
 [Carbon on GitHub](https://github.com/carbon-language/carbon-lang)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2651219914227916"
+     crossorigin="anonymous"></script>

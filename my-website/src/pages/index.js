@@ -19,6 +19,7 @@ export default function Home() {
       <meta name="propeller" content="ad5b38b95f726654cab26a16d857bdf9" />
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2651219914227916"
      crossorigin="anonymous"></script>
+     
               </Head>
               <Redirect to='/blog' />;
 

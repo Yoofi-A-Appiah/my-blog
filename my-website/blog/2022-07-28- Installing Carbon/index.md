@@ -7,7 +7,13 @@ hide_table_of_contents: false
 description: How to test carbon
 ---
 
-This tutorial will take you through the steps required to test Carbon on your machine
+
+
+This tutorial will take you through the steps required to test **Carbon** on your machine
+
+![testing](testing.jpg)
+<!--truncate-->
+
 :::caution
 
 If your internet connection is slow, the installation might lead to an error. For some packages when you restart installation you will be faced with an error. 
@@ -17,7 +23,6 @@ sudo apt-get remove *package_name*
 
 :::
 
-<!--truncate-->
 
 ## Installing WSL 
 
@@ -98,4 +103,5 @@ But the developers of Carbon promise to release more soon so get ready to work s
 Thank you for reading
 
 [Carbon on GitHub](https://github.com/carbon-language/carbon-lang)
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2651219914227916"
+     crossorigin="anonymous"></script>

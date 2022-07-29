@@ -65,3 +65,6 @@ It is worth noting that since its a new tool it will be buggy. It will be best t
 The introduction of Bun will definitely be a dream come true for many developers. However will this tool stand the test of time or become the next Windows 8. Hopefully not.
 If you would like more information on Bun <a href="https://bun.sh/">click here</a>
 Thanks for reading
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2651219914227916"
+     crossorigin="anonymous"></script>

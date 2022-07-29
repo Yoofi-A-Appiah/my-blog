@@ -56,3 +56,5 @@ So, if you’re considering Machine Learning or are familiar with the JavaScript
 
 References
 [^1]: https://venturebeat.com/2021/04/23/4-reasons-to-learn-machine-learning-with-javascript/.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2651219914227916"
+     crossorigin="anonymous"></script>
