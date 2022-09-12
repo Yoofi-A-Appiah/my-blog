@@ -14,7 +14,8 @@ description: Zero JavaScript with Astro JS
 
 ## What is Astro JS❓
 
-Well, [Astro JS](https://astro.build/) is a newly developed multipage, all-in-one web framework that focuses on fast content-driven websites. It boasts of 0 JavaScript for static websites and only ships JavaScript when necessary.
+Well, [Astro JS](https://astro.build/) is a newly developed multipage, all-in-one web framework that focuses on fast content-driven websites. It boasts of Zero JavaScript for static websites and only ships JavaScript when necessary.
+
 If you're new to this concept, the question on your mind might be "what sorcery is this"
 
 <iframe src="https://giphy.com/embed/ErHMDXYMfGH96" width="480" height="373" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -22,7 +23,9 @@ If you're new to this concept, the question on your mind might be "what sorcery 
 <ul>
 <li>To achieve this feat, Astro uses component islands. This is a shift from the regular front-end architecture. It extracts the UI into smaller isolated components. Any unused JS is replaced with HTML making it static and lightweight.</li>
 <li>
-This is based on a concept known as [partial hydration](https://markus.oberlehner.net/blog/partial-hydration-concepts-lazy-and-active/) 
+This is based on a concept known as partial hydration
+</li> 
+<li>
 It works great for static output or server output required on demand and works well with a filesystem, CMS like Storyblok as well as databases and APIs
 </li>
 <li>
@@ -46,4 +49,5 @@ Astro promises to be an all-in-one web framework. This is becoming more of a cli
 
 Thank you for reading.
 
-Getting started with Astro is simple just run npm create astro@latest in your terminal to get started. You can follow this tutorial to build a simple project https://www.youtube.com/watch?v=-5UPq7Lv9Sc
+An explanation on Partial hydration can be found [here](https://markus.oberlehner.net/blog/partial-hydration-concepts-lazy-and-active/) in case it wasn't clear to you
+Getting started with Astro is simple just run npm create astro@latest in your terminal to get started. You can follow [this](https://www.youtube.com/watch?v=-5UPq7Lv9Sc) tutorial to build a simple project
