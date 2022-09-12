@@ -8,13 +8,13 @@ description: Zero JavaScript with Astro JS
 ---
 
 ![astro](astro.png)
-97.6% of websites around the world use JavaScript. As great as this may be, websites that heavily rely on JS have high Time to interact scores (TTI) causing slower page loads and performance. So what do we do, sacrifice the complex features that make our web pages nicer and more interactive, or turn a deaf ear to TTI? Luckily **Astro JS** comes to our rescue.
+97.6% of websites around the world use [JavaScript](https://w3techs.com/technologies/details/cp-javascript#:~:text=JavaScript%20is%20used%20as%20client,98.0%25%20of%20all%20the%20websites.). As great as this may be, websites that heavily rely on JS have high [Time to interact scores](https://web.dev/interactive/) (TTI)causing slower page loads and performance. So what do we do, sacrifice the complex features that make our web pages nicer and more interactive, or turn a deaf ear to TTI? Luckily **Astro JS** comes to our rescue.
 
 <!--truncate-->
 
 ## What is Astro JS❓
 
-Well, Astro JS is a newly developed multipage, all-in-one web framework that focuses on fast content-driven websites. It boasts of 0 JavaScript for static websites and only ships JavaScript when necessary.
+Well, [Astro JS](https://astro.build/) is a newly developed multipage, all-in-one web framework that focuses on fast content-driven websites. It boasts of 0 JavaScript for static websites and only ships JavaScript when necessary.
 If you're new to this concept, the question on your mind might be "what sorcery is this"
 
 <iframe src="https://giphy.com/embed/ErHMDXYMfGH96" width="480" height="373" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -22,7 +22,7 @@ If you're new to this concept, the question on your mind might be "what sorcery 
 <ul>
 <li>To achieve this feat, Astro uses component islands. This is a shift from the regular front-end architecture. It extracts the UI into smaller isolated components. Any unused JS is replaced with HTML making it static and lightweight.</li>
 <li>
-This is based on a concept known as partial hydration
+This is based on a concept known as [partial hydration](https://ajcwebdev.com/what-is-partial-hydration-and-why-is-everyone-talking-about-it) 
 It works great for static output or server output required on demand and works well with a filesystem, CMS like Storyblok as well as databases and APIs
 </li>
 <li>
@@ -43,5 +43,7 @@ And as if this wasn't enough, it is made edge ready and hence can be integrated 
 6. UI- agnostic (meaning it is interoperable with a lot of UI frameworks)
 
 Astro promises to be an all-in-one web framework. This is becoming more of a cliché with web frameworks and I'm honestly getting fed up howeverI think Astro might actually be the real deal and hopefully, my hopes will not be shattered.
+
 Thank you for reading.
+
 Getting started with Astro is simple just run npm create astro@latest in your terminal to get started. You can follow this tutorial to build a simple project https://www.youtube.com/watch?v=-5UPq7Lv9Sc
