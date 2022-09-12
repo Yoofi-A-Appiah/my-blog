@@ -22,7 +22,7 @@ If you're new to this concept, the question on your mind might be "what sorcery 
 <ul>
 <li>To achieve this feat, Astro uses component islands. This is a shift from the regular front-end architecture. It extracts the UI into smaller isolated components. Any unused JS is replaced with HTML making it static and lightweight.</li>
 <li>
-This is based on a concept known as [partial hydration](https://ajcwebdev.com/what-is-partial-hydration-and-why-is-everyone-talking-about-it) 
+This is based on a concept known as [partial hydration](https://markus.oberlehner.net/blog/partial-hydration-concepts-lazy-and-active/) 
 It works great for static output or server output required on demand and works well with a filesystem, CMS like Storyblok as well as databases and APIs
 </li>
 <li>
